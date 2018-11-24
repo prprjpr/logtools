@@ -21,12 +21,11 @@
 		<module>logtools.impl</module>
 		<module>logtools.service</module>
 		<module>logtools.web</module>
-		<module>logtools.war</module>
 		<module>logtools.client</module>
+		<module>logtools.war</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
-			
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-web</artifactId>
